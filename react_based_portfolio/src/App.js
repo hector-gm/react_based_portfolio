@@ -1,23 +1,28 @@
 import React from "react";
-import {BrowserRouter, Route, Link} from "react-router-dom";
-import Projects from "./components/Projects";
-import FindMe from "./components/FindMe";
-import About from "./components/About"
+import "./App.css";
 import NavBar from "./components/NavBar";
-// import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Route exact path="/" component={Projects} />
-        <Route exact path="/findme" component={FindMe} />
-        <Route exact path="/about" component={About} />
-
-        <NavBar />
-      </div>
-    </BrowserRouter>  
+    <div className="demo-big-content">
+      
+        <header className="header">
+          <NavBar />
+          {/* <div Navigation>
+            <Link to="/About">About Me</Link>
+            <Link to="/Projects">Projects</Link>
+            <Link to="/FindMe">Find Me</Link>
+          </div> */}
+        </header>
+        
+        
+          <div className="page-content"></div>
+          <Main />
+        
+      
+    </div>
   );
 }
 

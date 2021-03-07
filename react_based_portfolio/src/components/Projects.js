@@ -5,19 +5,19 @@ function Projects(props) {
   return (
     <div>
       <h1>Projects</h1>
-      {/* <Thumbnail
+      <div
       link="novelty"
       image="../assets/novelty.herokuapp.com_index.png"
       title="Novelty - An app for Book Lovers"
       category="Deployed Bootcamp Coursework"
       />
 
-      <Thumbnail
+      <div
       link="employee_directory"
       image="../assets/emp_directory-example"
       title="Employee Directory"
       category="Bootcamp Coursework GitHub Repo"
-      /> */}
+      />
      
      
     </div>
