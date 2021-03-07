@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Link} from "react-router-dom";
 import Projects from "./Projects";
 import FindMe from "./FindMe";
 import About from "./About"
+import NavBar from "./components/NavBar";
 // import logo from './logo.svg';
 import './App.css';
 
@@ -14,14 +15,7 @@ function App() {
         <Route exact path="/findme" component={FindMe} />
         <Route exact path="/about" component={About} />
 
-        <div className="navigation">
-          {/* <img src={logo} className="logo" alt="Logo Image" /> */}
-          <div className="navigation-sub">
-            <link to="/" className="item">Projects</link>
-            <link to="/findme" className="item">Find Me</link>
-            <link to="/about" className="item">About</link>
-          </div>
-        </div>
+        <NavBar />
       </div>
     </BrowserRouter>  
   );

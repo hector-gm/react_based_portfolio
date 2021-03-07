@@ -6,29 +6,20 @@ function Projects(props) {
     <div>
       <h1>Projects</h1>
       <Thumbnail
-      link="https://employee-directory-v2.herokuapp.com/"
-      image=""
-      title="Employee Directory App"
+      link="novelty"
+      image="../assets/novelty.herokuapp.com_index.png"
+      title="Novelty - An app for Book Lovers"
       category="Deployed Bootcamp Coursework"
       />
+
       <Thumbnail
-      link="https://github.com/hector-gm/passwordGenerator"
-      image=""
-      title="Password Generator"
+      link="employee_directory"
+      image="../assets/emp_directory-example"
+      title="Employee Directory"
       category="Bootcamp Coursework GitHub Repo"
       />
-      <Thumbnail
-      link="https://novelty.herokuapp.com/"
-      image=""
-      title="Group Project"
-      category="Deployed Bootcamp Coursework"
-      />
-      <Thumbnail
-      link="https://hector-workout-tracker.herokuapp.com/"
-      image=""
-      title="Mongo Atlas enabled Fitness Tracker"
-      category="Deployed Bootcamp Coursework"
-      />
+     
+     
     </div>
   )
 }
