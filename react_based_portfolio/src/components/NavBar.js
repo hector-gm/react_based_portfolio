@@ -6,7 +6,7 @@ function NavBar () {
     <div className="navigation">
           
           <div className="navigation-sub">
-            <Link to="/" className="item">Projects</Link>
+            <Link to="/projects" className="item">Projects</Link>
             {/* <hr /> */}
             <Link to="/findme" className="item">Find Me</Link>
             {/* <hr /> */}

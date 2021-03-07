@@ -3,6 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
+      <img src="../assets/Hector-gm.jpg" style={{height:"250px"}} />
       <h1>About Me: Hector Garcia Millares</h1>
       <br />
       <p> I’m currently pursuing a long-held interest to become a full-stack web developer to leverage technology alongside my experience in hospitality. I'm currently enrolled in the University of Toronto’s School of Continuing Studies participating in a Web Development boot camp.
