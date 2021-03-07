@@ -1,8 +1,8 @@
 import React from "react";
 import {BrowserRouter, Route, Link} from "react-router-dom";
-import Projects from "./Projects";
-import FindMe from "./FindMe";
-import About from "./About"
+import Projects from "./components/Projects";
+import FindMe from "./components/FindMe";
+import About from "./components/About"
 import NavBar from "./components/NavBar";
 // import logo from './logo.svg';
 import './App.css';

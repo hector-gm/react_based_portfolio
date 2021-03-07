@@ -1,11 +1,11 @@
 import React from "react";
-import Thumbnail from "./Thumbnail";
+// import Thumbnail from "../Thumbnail";
  
 function Projects(props) {
   return (
     <div>
       <h1>Projects</h1>
-      <Thumbnail
+      {/* <Thumbnail
       link="novelty"
       image="../assets/novelty.herokuapp.com_index.png"
       title="Novelty - An app for Book Lovers"
@@ -17,7 +17,7 @@ function Projects(props) {
       image="../assets/emp_directory-example"
       title="Employee Directory"
       category="Bootcamp Coursework GitHub Repo"
-      />
+      /> */}
      
      
     </div>
