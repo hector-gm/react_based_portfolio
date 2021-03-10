@@ -3,7 +3,7 @@ import React from "react";
  
 function Projects() {
   return (
-    <div>
+    <div style={{alignContent:"center"}}>
       <h1>Projects</h1>
       
       <div className="novelty">
